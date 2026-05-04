@@ -1,0 +1,255 @@
+﻿namespace WinFormsApp_UP_01
+{
+    partial class Form4
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            components = new System.ComponentModel.Container();
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.LineSeriesView lineSeriesView1 = new DevExpress.XtraCharts.LineSeriesView();
+            chartControl1 = new DevExpress.XtraCharts.ChartControl();
+            label1 = new Label();
+            toolTip1 = new ToolTip(components);
+            textBox4 = new TextBox();
+            label6 = new Label();
+            label5 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label4 = new Label();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            button1 = new Button();
+            trackBar1 = new TrackBar();
+            button2 = new Button();
+            ((System.ComponentModel.ISupportInitialize)chartControl1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)series1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)lineSeriesView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
+            SuspendLayout();
+            // 
+            // chartControl1
+            // 
+            chartControl1.BackColor = Color.Gainsboro;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            chartControl1.Diagram = xyDiagram1;
+            chartControl1.Location = new Point(12, 61);
+            chartControl1.Name = "chartControl1";
+            series1.Name = "Series 1";
+            series1.SeriesID = 0;
+            series1.View = lineSeriesView1;
+            chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[]
+    {
+    series1
+    };
+            chartControl1.Size = new Size(388, 220);
+            chartControl1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            label1.Font = new Font("Segoe UI", 10F);
+            label1.Location = new Point(12, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(388, 23);
+            label1.TabIndex = 2;
+            label1.Text = "Решение уравнения методом хорд";
+            // 
+            // toolTip1
+            // 
+            toolTip1.BackColor = SystemColors.ControlLight;
+            // 
+            // textBox4
+            // 
+            textBox4.BackColor = Color.Gainsboro;
+            textBox4.Location = new Point(329, 332);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(33, 28);
+            textBox4.TabIndex = 44;
+            // 
+            // label6
+            // 
+            label6.Cursor = Cursors.No;
+            label6.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label6.Location = new Point(210, 334);
+            label6.Name = "label6";
+            label6.Size = new Size(113, 23);
+            label6.TabIndex = 43;
+            label6.Text = "Введите шаг:";
+            // 
+            // label5
+            // 
+            label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label5.Location = new Point(12, 334);
+            label5.Name = "label5";
+            label5.Size = new Size(192, 25);
+            label5.TabIndex = 42;
+            label5.Text = "Точность вычислений:";
+            // 
+            // label3
+            // 
+            label3.Cursor = Cursors.No;
+            label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label3.Location = new Point(154, 295);
+            label3.Name = "label3";
+            label3.Size = new Size(96, 23);
+            label3.TabIndex = 41;
+            label3.Text = "Введите b:";
+            // 
+            // label2
+            // 
+            label2.Cursor = Cursors.No;
+            label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            label2.Location = new Point(12, 295);
+            label2.Name = "label2";
+            label2.Size = new Size(97, 23);
+            label2.TabIndex = 40;
+            label2.Text = "Введите a:";
+            // 
+            // label4
+            // 
+            label4.Cursor = Cursors.No;
+            label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label4.Location = new Point(12, 392);
+            label4.Name = "label4";
+            label4.Size = new Size(76, 29);
+            label4.TabIndex = 39;
+            label4.Text = "Ответ:";
+            // 
+            // textBox3
+            // 
+            textBox3.BackColor = Color.Gainsboro;
+            textBox3.Location = new Point(115, 294);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(33, 28);
+            textBox3.TabIndex = 38;
+            // 
+            // textBox2
+            // 
+            textBox2.BackColor = Color.Gainsboro;
+            textBox2.Location = new Point(12, 424);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(388, 76);
+            textBox2.TabIndex = 37;
+            // 
+            // textBox1
+            // 
+            textBox1.BackColor = Color.Gainsboro;
+            textBox1.Location = new Point(256, 294);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(33, 28);
+            textBox1.TabIndex = 36;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.ForestGreen;
+            button1.Cursor = Cursors.Hand;
+            button1.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button1.Location = new Point(306, 381);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 37);
+            button1.TabIndex = 35;
+            button1.Text = "Решить ";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // trackBar1
+            // 
+            trackBar1.Location = new Point(12, 362);
+            trackBar1.Name = "trackBar1";
+            trackBar1.Size = new Size(192, 56);
+            trackBar1.TabIndex = 34;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Firebrick;
+            button2.Cursor = Cursors.Hand;
+            button2.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            button2.Location = new Point(306, 508);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 33);
+            button2.TabIndex = 33;
+            button2.Text = "Закрыть";
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // Form4
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(412, 553);
+            Controls.Add(textBox4);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label4);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(button1);
+            Controls.Add(trackBar1);
+            Controls.Add(button2);
+            Controls.Add(label1);
+            Controls.Add(chartControl1);
+            Name = "Form4";
+            Text = "Метод хорд";
+            toolTip1.SetToolTip(this, "На сколько знаков после запятой округлять вычисления");
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)lineSeriesView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)series1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)chartControl1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+
+        private DevExpress.XtraCharts.ChartControl chartControl1;
+        private Label label1;
+        private ToolTip toolTip1;
+        private TextBox textBox4;
+        private Label label6;
+        private Label label5;
+        private Label label3;
+        private Label label2;
+        private Label label4;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private Button button1;
+        private TrackBar trackBar1;
+        private Button button2;
+    }
+}
