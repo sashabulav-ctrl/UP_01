@@ -55,9 +55,9 @@
             // label1
             // 
             label1.Font = new Font("Segoe UI", 10F);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(11, 9);
             label1.Name = "label1";
-            label1.Size = new Size(388, 32);
+            label1.Size = new Size(389, 32);
             label1.TabIndex = 7;
             label1.Text = "Решение уравнения методом итераций";
             // 
@@ -67,7 +67,7 @@
             xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
             xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
             chartControl1.Diagram = xyDiagram1;
-            chartControl1.Location = new Point(12, 61);
+            chartControl1.Location = new Point(11, 61);
             chartControl1.Name = "chartControl1";
             series1.Name = "Series 1";
             series1.SeriesID = 0;
@@ -76,32 +76,32 @@
     {
     series1
     };
-            chartControl1.Size = new Size(388, 220);
+            chartControl1.Size = new Size(389, 220);
             chartControl1.TabIndex = 6;
             // 
             // textBox4
             // 
             textBox4.BackColor = Color.Gainsboro;
-            textBox4.Location = new Point(329, 332);
-            textBox4.Multiline = true;
+            textBox4.Location = new Point(366, 332);
+            textBox4.MaxLength = 10;
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(33, 28);
+            textBox4.Size = new Size(33, 27);
             textBox4.TabIndex = 44;
             // 
             // label6
             // 
             label6.Cursor = Cursors.No;
             label6.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label6.Location = new Point(210, 334);
+            label6.Location = new Point(209, 333);
             label6.Name = "label6";
-            label6.Size = new Size(113, 23);
+            label6.Size = new Size(157, 30);
             label6.TabIndex = 43;
-            label6.Text = "Введите шаг:";
+            label6.Text = "Кол-во сегментов:";
             // 
             // label5
             // 
             label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label5.Location = new Point(12, 334);
+            label5.Location = new Point(11, 333);
             label5.Name = "label5";
             label5.Size = new Size(192, 25);
             label5.TabIndex = 42;
@@ -121,7 +121,7 @@
             // 
             label2.Cursor = Cursors.No;
             label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(12, 295);
+            label2.Location = new Point(11, 295);
             label2.Name = "label2";
             label2.Size = new Size(97, 23);
             label2.TabIndex = 40;
@@ -131,37 +131,38 @@
             // 
             label4.Cursor = Cursors.No;
             label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label4.Location = new Point(12, 392);
+            label4.Location = new Point(11, 392);
             label4.Name = "label4";
-            label4.Size = new Size(76, 29);
+            label4.Size = new Size(75, 29);
             label4.TabIndex = 39;
             label4.Text = "Ответ:";
             // 
             // textBox3
             // 
             textBox3.BackColor = Color.Gainsboro;
-            textBox3.Location = new Point(115, 294);
-            textBox3.Multiline = true;
+            textBox3.Location = new Point(102, 295);
+            textBox3.MaxLength = 10;
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(33, 28);
+            textBox3.Size = new Size(45, 27);
             textBox3.TabIndex = 38;
             // 
             // textBox2
             // 
             textBox2.BackColor = Color.Gainsboro;
-            textBox2.Location = new Point(12, 424);
+            textBox2.Location = new Point(11, 424);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
+            textBox2.ScrollBars = ScrollBars.Vertical;
             textBox2.Size = new Size(388, 76);
             textBox2.TabIndex = 37;
             // 
             // textBox1
             // 
             textBox1.BackColor = Color.Gainsboro;
-            textBox1.Location = new Point(256, 294);
-            textBox1.Multiline = true;
+            textBox1.Location = new Point(242, 295);
+            textBox1.MaxLength = 10;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(33, 28);
+            textBox1.Size = new Size(45, 27);
             textBox1.TabIndex = 36;
             // 
             // button1
@@ -178,7 +179,7 @@
             // 
             // trackBar1
             // 
-            trackBar1.Location = new Point(12, 362);
+            trackBar1.Location = new Point(11, 363);
             trackBar1.Name = "trackBar1";
             trackBar1.Size = new Size(192, 56);
             trackBar1.TabIndex = 34;
@@ -201,21 +202,21 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(412, 553);
+            ClientSize = new Size(411, 553);
+            Controls.Add(textBox3);
+            Controls.Add(textBox1);
             Controls.Add(textBox4);
-            Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label4);
-            Controls.Add(textBox3);
             Controls.Add(textBox2);
-            Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(trackBar1);
             Controls.Add(button2);
             Controls.Add(label1);
             Controls.Add(chartControl1);
+            Controls.Add(label6);
             Name = "Form6";
             Text = "Метод итерации";
             ((System.ComponentModel.ISupportInitialize)xyDiagram1).EndInit();

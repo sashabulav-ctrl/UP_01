@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series3 = new DevExpress.XtraCharts.Series();
-            DevExpress.XtraCharts.LineSeriesView lineSeriesView3 = new DevExpress.XtraCharts.LineSeriesView();
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.LineSeriesView lineSeriesView1 = new DevExpress.XtraCharts.LineSeriesView();
             button2 = new Button();
             label1 = new Label();
             chartControl1 = new DevExpress.XtraCharts.ChartControl();
@@ -46,9 +46,9 @@
             label6 = new Label();
             textBox4 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)chartControl1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)xyDiagram3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)series3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)lineSeriesView3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)series1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)lineSeriesView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             SuspendLayout();
             // 
@@ -68,34 +68,34 @@
             // label1
             // 
             label1.Font = new Font("Segoe UI", 10F);
-            label1.Location = new Point(12, 9);
+            label1.Location = new Point(11, 9);
             label1.Name = "label1";
-            label1.Size = new Size(291, 49);
+            label1.Size = new Size(400, 49);
             label1.TabIndex = 7;
             label1.Text = "Решение уравнения методом Ньютона(касательных)";
             // 
             // chartControl1
             // 
             chartControl1.BackColor = Color.Gainsboro;
-            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
-            chartControl1.Diagram = xyDiagram3;
-            chartControl1.Location = new Point(12, 61);
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            chartControl1.Diagram = xyDiagram1;
+            chartControl1.Location = new Point(11, 61);
             chartControl1.Name = "chartControl1";
-            series3.Name = "Series 1";
-            series3.SeriesID = 0;
-            series3.View = lineSeriesView3;
+            series1.Name = "Series 1";
+            series1.SeriesID = 0;
+            series1.View = lineSeriesView1;
             chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[]
     {
-    series3
+    series1
     };
-            chartControl1.Size = new Size(388, 220);
+            chartControl1.Size = new Size(389, 220);
             chartControl1.TabIndex = 6;
             // 
             // label5
             // 
             label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label5.Location = new Point(12, 334);
+            label5.Location = new Point(11, 333);
             label5.Name = "label5";
             label5.Size = new Size(192, 25);
             label5.TabIndex = 30;
@@ -115,7 +115,7 @@
             // 
             label2.Cursor = Cursors.No;
             label2.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(12, 295);
+            label2.Location = new Point(11, 295);
             label2.Name = "label2";
             label2.Size = new Size(97, 23);
             label2.TabIndex = 28;
@@ -125,37 +125,38 @@
             // 
             label4.Cursor = Cursors.No;
             label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 204);
-            label4.Location = new Point(12, 392);
+            label4.Location = new Point(11, 392);
             label4.Name = "label4";
-            label4.Size = new Size(76, 29);
+            label4.Size = new Size(75, 29);
             label4.TabIndex = 27;
             label4.Text = "Ответ:";
             // 
             // textBox3
             // 
             textBox3.BackColor = Color.Gainsboro;
-            textBox3.Location = new Point(115, 294);
-            textBox3.Multiline = true;
+            textBox3.Location = new Point(102, 295);
+            textBox3.MaxLength = 10;
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(33, 28);
+            textBox3.Size = new Size(45, 27);
             textBox3.TabIndex = 26;
             // 
             // textBox2
             // 
             textBox2.BackColor = Color.Gainsboro;
-            textBox2.Location = new Point(12, 424);
+            textBox2.Location = new Point(11, 424);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
+            textBox2.ScrollBars = ScrollBars.Vertical;
             textBox2.Size = new Size(388, 76);
             textBox2.TabIndex = 25;
             // 
             // textBox1
             // 
             textBox1.BackColor = Color.Gainsboro;
-            textBox1.Location = new Point(256, 294);
-            textBox1.Multiline = true;
+            textBox1.Location = new Point(242, 295);
+            textBox1.MaxLength = 10;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(33, 28);
+            textBox1.Size = new Size(45, 27);
             textBox1.TabIndex = 24;
             // 
             // button1
@@ -172,7 +173,7 @@
             // 
             // trackBar1
             // 
-            trackBar1.Location = new Point(12, 362);
+            trackBar1.Location = new Point(11, 363);
             trackBar1.Name = "trackBar1";
             trackBar1.Size = new Size(192, 56);
             trackBar1.TabIndex = 22;
@@ -181,7 +182,7 @@
             // 
             label6.Cursor = Cursors.No;
             label6.Font = new Font("Segoe UI", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label6.Location = new Point(210, 334);
+            label6.Location = new Point(210, 333);
             label6.Name = "label6";
             label6.Size = new Size(113, 23);
             label6.TabIndex = 31;
@@ -191,9 +192,9 @@
             // 
             textBox4.BackColor = Color.Gainsboro;
             textBox4.Location = new Point(329, 332);
-            textBox4.Multiline = true;
+            textBox4.MaxLength = 10;
             textBox4.Name = "textBox4";
-            textBox4.Size = new Size(33, 28);
+            textBox4.Size = new Size(45, 27);
             textBox4.TabIndex = 32;
             // 
             // Form5
@@ -201,26 +202,26 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
-            ClientSize = new Size(412, 553);
+            ClientSize = new Size(411, 553);
+            Controls.Add(textBox3);
+            Controls.Add(textBox1);
             Controls.Add(textBox4);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label4);
-            Controls.Add(textBox3);
             Controls.Add(textBox2);
-            Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(trackBar1);
             Controls.Add(button2);
             Controls.Add(label1);
             Controls.Add(chartControl1);
             Name = "Form5";
-            Text = "Метод Ньютона";
-            ((System.ComponentModel.ISupportInitialize)xyDiagram3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)lineSeriesView3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)series3).EndInit();
+            Text = "Метод Ньютона(касательных)";
+            ((System.ComponentModel.ISupportInitialize)xyDiagram1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)lineSeriesView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)series1).EndInit();
             ((System.ComponentModel.ISupportInitialize)chartControl1).EndInit();
             ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
             ResumeLayout(false);
